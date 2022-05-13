@@ -1,0 +1,2 @@
+  - Is there any reason to use a microptocesser instead of a microcontroller?
+    - Maybe less energy consumption and space needed, if you taylor the needed peripherals exactly to your needes (applies only to mass produced embedded systems)
