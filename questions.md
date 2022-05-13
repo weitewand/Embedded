@@ -1,6 +1,8 @@
   - Is there any reason to use a microptocesser instead of a microcontroller?
     - Maybe less energy consumption and space needed, if you taylor the needed peripherals exactly to your needes (applies only to mass produced embedded systems)
+    - A normal PC (though not an embedded system) uses a microprosessor (the CPU) and all the peripherals are on the motherboard. at least when I build my own PCs, a modern Mac may have it all integreated on one chip).
   - What is an OSC?
   - What is parallel/serial exactly? Which devices uses what kind of communication? How do these blocks in a microcontroller work? (see Qian et al 2009, p. 6)
     - parallel: external memory, data [Qian et al 2009, p. 6]
     - serial: PC, modem, wireless, ethernet [Qian et al 2009, p. 6]
+ - What does it mean that the accumulator register can be used as an operand? (Qian et al 2009, p.7)
