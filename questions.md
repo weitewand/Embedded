@@ -1,2 +1,6 @@
   - Is there any reason to use a microptocesser instead of a microcontroller?
     - Maybe less energy consumption and space needed, if you taylor the needed peripherals exactly to your needes (applies only to mass produced embedded systems)
+  - What is an OSC?
+  - What is parallel/serial exactly? Which devices uses what kind of communication? How do these blocks in a microcontroller work? (see Qian et al 2009, p. 6)
+    - parallel: external memory, data [Qian et al 2009, p. 6]
+    - serial: PC, modem, wireless, ethernet [Qian et al 2009, p. 6]
