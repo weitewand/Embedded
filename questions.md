@@ -6,3 +6,4 @@
     - parallel: external memory, data [Qian et al 2009, p. 6]
     - serial: PC, modem, wireless, ethernet [Qian et al 2009, p. 6]
  - What does it mean that the accumulator register can be used as an operand? (Qian et al 2009, p.7)
+ - What is a MDA?
