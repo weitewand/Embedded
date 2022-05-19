@@ -22,7 +22,7 @@ Book about embedded systems. Focuses on the software design but also says a thin
   - Real-time embedded systems
     * Some particular work/task must be done in a certain amount of time. Not only functional correctness has to be met, but also a time constraint has to be fulfilled.
     * Hard real-time systems: not meeting the time constraint leads to loss of life oder damage of property; response time deadline usually in $ms$ or even shorter; examples: missile control, air monitoring, some medical devices, air bag control; often interects with physical hardware directly, not through human being; has to be tested rigorously including a worst case execution (WCET) analysis.
-    * Soft real-time systems: there are some response time constraints but lateness can be tolerated to some degree
+    * Soft real-time systems: there are some response time constraints but lateness can be tolerated to some degree, allocation of bandwidth and resources to the tasks is a design focus; latency delays in seconds can often be tolerated; exp: washing machines & microwaves
 
 #### 1.3 Application Areas of Embedded Systems
 
