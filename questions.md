@@ -5,5 +5,6 @@
   - What is parallel/serial exactly? Which devices uses what kind of communication? How do these blocks in a microcontroller work? (see Qian et al 2009, p. 6)
     - parallel: external memory, data [Qian et al 2009, p. 6]
     - serial: PC, modem, wireless, ethernet [Qian et al 2009, p. 6]
- - What does it mean that the accumulator register can be used as an operand? (Qian et al 2009, p.7)
- - What is a MDA? 
+  - What does it mean that the accumulator register can be used as an operand? (Qian et al 2009, p.7)
+  - What is a MDA? 
+  - What is "Programming with multi-tasking and multi-threading execution"? (Qian et al 2009, p.5) *I think there is something about that in the ASURO manual.*
