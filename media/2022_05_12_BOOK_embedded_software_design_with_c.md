@@ -37,6 +37,21 @@ Book about embedded systems. Focuses on the software design but also says a thin
 
 #### 1.4 Characteristics of Embedded Systems
 
+  - all dedicated to perform specific jobs
+  - standard lifetime: rather long (over 5 years)
+  - high-volume embedded systems: System on Chip (SoC), Application-Specific Intergrated Circuit (ASIC), Field-Programmable gagted Arrey (FPGA) 
+  - Reliability is a very important aspect of embedded systems: Embedded systems are often expected to run for years without faults without updates or bug-fixes and to tolerate errors by themselves. Therefore, they are much mor thouroughly tested than applications for PCs. There is often no possibility to shut them down for maintanance (e.g. aerospace systems) or it is very expensive to shut them down (e.g. telephone switches or factory controls)
+  - in short: running 24/7/365, no maintanance, no reboot, no interaction with humans, no updates once they are up and running
+  - other constraints:
+    * Resources: constrtaints in size, computing power (for example: may be batterie operated), memory capacity
+	* Time: constraints on fastness of reaction to input or duration for certain operations
+	* Environment: high or low temperatures, preassure, humidity, underwater etc
+	* Cost: Minimizing cost is most of the time the primary design consideration, the selected hardewar should be "just good enough" for the specific tasks
+	* Time to market: Design and development cycle has to be short to beat other competitors
+  - other challenges:
+    * choices in hard- and software: wide variety of chips, programming language selection, selection of I/O components, programming with multi-tasking and multi-threading execution
+	* testing and debugging: Emulator for simulating all components to do debugging on a PC, testing on multi-tasking and scheduling execution, testing in real world environment
+  
 #### 1.5 Hardware Overview
 
 ### 2 Embedded Software Design and Development
