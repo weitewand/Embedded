@@ -32,7 +32,8 @@ Book about embedded systems. Focuses on the software design but also says a thin
 
 #### 1.3 Application Areas of Embedded Systems
 
-  - 
+  - pretty much everywhere: from consumer electronics to large traffic control system to factory control system, from from very low cost and very large market to very high cost ans few markets, from medical instruments to aerospace and weapon control devices
+  - reports estimate that an aversge US-household has 50 µC embedded in devices at home *number probably increasing a lot in the future*
 
 #### 1.4 Characteristics of Embedded Systems
 
