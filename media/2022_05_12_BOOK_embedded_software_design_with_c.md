@@ -23,9 +23,16 @@ Book about embedded systems. Focuses on the software design but also says a thin
     * Some particular work/task must be done in a certain amount of time. Not only functional correctness has to be met, but also a time constraint has to be fulfilled.
     * Hard real-time systems: not meeting the time constraint leads to loss of life oder damage of property; response time deadline usually in $ms$ or even shorter; examples: missile control, air monitoring, some medical devices, air bag control; often interects with physical hardware directly, not through human being; has to be tested rigorously including a worst case execution (WCET) analysis.
     * Soft real-time systems: there are some response time constraints but lateness can be tolerated to some degree, allocation of bandwidth and resources to the tasks is a design focus; latency delays in seconds can often be tolerated; exp: washing machines & microwaves
+	* Many real-time systems have hard and soft events mixed.
   - Networked embedded systems
+    * Embedded systems that are connected to a network (e.g. LAN, WAN, or the internet), either wireless or by wire. Exp.: home security system: connected in a LAN via TCP/IP protocoll but may also connected to a web-based security cam via HTTP protocoll.
+	* Pervasive computing: very tiny or even invisible embedded systems covering whole areas/environments (either mobile or attached to objects)
+	* Embedded web server: all embedded devices are connected to a webserver and can be controlled via a browser
+  - Categorisation by scale also possible: small scale: 8-16 bit µp or µC with on-chip RAM and ROM; medium scale: 16-32 bit µP or µC eith external RAM and ROM; large scale: multiple 32-bit or 64-bit chips in a networked system doing distributed jobs
 
 #### 1.3 Application Areas of Embedded Systems
+
+  - 
 
 #### 1.4 Characteristics of Embedded Systems
 
