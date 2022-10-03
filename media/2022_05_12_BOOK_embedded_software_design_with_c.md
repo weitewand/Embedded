@@ -23,11 +23,11 @@ Book about embedded systems. Focuses on the software design but also says a thin
     * Some particular work/task must be done in a certain amount of time. Not only functional correctness has to be met, but also a time constraint has to be fulfilled.
     * Hard real-time systems: not meeting the time constraint leads to loss of life oder damage of property; response time deadline usually in $ms$ or even shorter; examples: missile control, air monitoring, some medical devices, air bag control; often interects with physical hardware directly, not through human being; has to be tested rigorously including a worst case execution (WCET) analysis.
     * Soft real-time systems: there are some response time constraints but lateness can be tolerated to some degree, allocation of bandwidth and resources to the tasks is a design focus; latency delays in seconds can often be tolerated; exp: washing machines & microwaves
-	  * Many real-time systems have hard and soft events mixed.
+	* Many real-time systems have hard and soft events mixed.
   - Networked embedded systems
     * Embedded systems that are connected to a network (e.g. LAN, WAN, or the internet), either wireless or by wire. Exp.: home security system: connected in a LAN via TCP/IP protocoll but may also connected to a web-based security cam via HTTP protocoll.
-	  * Pervasive computing: very tiny or even invisible embedded systems covering whole areas/environments (either mobile or attached to objects)
- 	  * Embedded web server: all embedded devices are connected to a webserver and can be controlled via a browser
+	* Pervasive computing: very tiny or even invisible embedded systems covering whole areas/environments (either mobile or attached to objects)
+	* Embedded web server: all embedded devices are connected to a webserver and can be controlled via a browser
   - Categorisation by scale also possible: small scale: 8-16 bit µp or µC with on-chip RAM and ROM; medium scale: 16-32 bit µP or µC eith external RAM and ROM; large scale: multiple 32-bit or 64-bit chips in a networked system doing distributed jobs
 
 #### 1.3 Application Areas of Embedded Systems
@@ -44,13 +44,13 @@ Book about embedded systems. Focuses on the software design but also says a thin
   - in short: running 24/7/365, no maintanance, no reboot, no interaction with humans, no updates once they are up and running
   - other constraints:
     * Resources: constrtaints in size, computing power (for example: may be batterie operated), memory capacity
-	  * Time: constraints on fastness of reaction to input or duration for certain operations
-	  * Environment: high or low temperatures, preassure, humidity, underwater etc
-	  * Cost: Minimizing cost is most of the time the primary design consideration, the selected hardewar should be "just good enough" for the specific tasks
-	  * Time to market: Design and development cycle has to be short to beat other competitors
+	* Time: constraints on fastness of reaction to input or duration for certain operations
+	* Environment: high or low temperatures, preassure, humidity, underwater etc
+	* Cost: Minimizing cost is most of the time the primary design consideration, the selected hardewar should be "just good enough" for the specific tasks
+	* Time to market: Design and development cycle has to be short to beat other competitors
   - other challenges:
     * choices in hard- and software: wide variety of chips, programming language selection, selection of I/O components, programming with multi-tasking and multi-threading execution
-	  * testing and debugging: Emulator for simulating all components to do debugging on a PC, testing on multi-tasking and scheduling execution, testing in real world environment
+	* testing and debugging: Emulator for simulating all components to do debugging on a PC, testing on multi-tasking and scheduling execution, testing in real world environment
   
 #### 1.5 Hardware Overview
 
