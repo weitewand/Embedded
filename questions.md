@@ -8,3 +8,7 @@
   - What does it mean that the accumulator register can be used as an operand? (Qian et al 2009, p.7)
   - What is a MDA? 
   - What is "Programming with multi-tasking and multi-threading execution"? (Qian et al 2009, p.5) *I think there is something about that in the ASURO manual.*
+  - What is RTE in context of AUTOSAR? -> probably RunTime Environment
+  - Is the application layer a layer used by the engineers and not relevant in the time the system is running? (Really bad worded, but I can not find a better way to put it) 
+  - What is SOME/IP?
+  - What are muC- and muP-software stacks?
